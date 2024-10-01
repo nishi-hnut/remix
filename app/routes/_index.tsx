@@ -9,9 +9,9 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="relative bg-black max-w-xs mx-auto px-2 py-2">
+    <div className="relative bg-black max-w-md mx-auto px-2 py-2">
       <header>
-        <div className="max-w-xs mx-auto text-center flex items-center justify-between">
+        <div className="max-w-md mx-auto text-center flex items-center justify-between">
           <img className="w-4 h-4 object-cover" src="serch.png" alt="" />
 
           <div className="flex items-center">
@@ -23,7 +23,7 @@ export default function Index() {
         </div>
       </header>
 
-      <main className="max-w-xs mx-auto">
+      <main className="max-w-md mx-auto">
         <div className="flex justify-between mt-4">
           <p className="text-white text-xs font-bold">いますぐ通話可能なお相手</p>
           <p className="text-purple-400 text-xs font-bold">更新する</p>
@@ -167,7 +167,7 @@ export default function Index() {
         </div>
       </main>
 
-      <div className="sticky max-w-xs mx-auto bottom-0 -translate-y-20 right-0 z-50 ml-52 justify-end">
+      <div className="sticky max-w-md mx-auto bottom-0 -translate-y-20 right-0 z-50 ml-52 justify-end">
         <div className="bg-red-500 flex items-center py-2 px-1.5 w-20 rounded-full">
           <p className="text-white text-xs flex-1 font-bold">今すぐ通話</p>
         </div>
