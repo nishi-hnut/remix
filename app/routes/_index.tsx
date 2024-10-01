@@ -165,12 +165,6 @@ export default function Index() {
             </div>
           </div>
         </div>
-
-        <section className="hero is-primary">
-          <div className="hero-body">
-            <p className="title">Hello, Remix with Bulma!</p>
-          </div>
-        </section>
       </main>
 
       <div className="sticky max-w-xs mx-auto bottom-0 -translate-y-20 right-0 z-50 ml-52 justify-end">
