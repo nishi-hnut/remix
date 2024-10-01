@@ -26,7 +26,7 @@ export default function Index() {
       <main className="max-w-md mx-auto">
         <div className="flex justify-between mt-4">
           <p className="text-white text-xs font-bold">いますぐ通話可能なお相手</p>
-          <button>
+          <button onClick={() => alert("Button clicked!")}>
             <p className="text-purple-400 text-xs font-bold">更新する</p>
           </button>
         </div>
