@@ -9,9 +9,10 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
-  user-select: none; /* ユーザーがテキストを選択できない */
-  -webkit-user-select: none; /* Safari対応 */
-  -ms-user-select: none; /* Internet Explorer対応 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 img {
