@@ -8,6 +8,11 @@ export const meta: MetaFunction = () => {
 };
 
 export default function Index() {
+
+  const handleClick = () => {
+    console.log("Button clicked!");
+  };
+
   return (
     <div className="relative bg-black max-w-md mx-auto px-2 py-2">
       <header>
@@ -26,7 +31,7 @@ export default function Index() {
       <main className="max-w-md mx-auto">
         <div className="flex justify-between mt-4">
           <p className="text-white text-xs font-bold">いますぐ通話可能なお相手</p>
-          <button onClick={() => alert("Button clicked!")}>
+          <button onClick={handleClick}>
             <p className="text-purple-400 text-xs font-bold">更新する</p>
           </button>
         </div>
