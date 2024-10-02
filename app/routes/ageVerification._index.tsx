@@ -20,7 +20,7 @@ export default function ageVerification() {
                     <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 whitespace-nowrap">①年齢確認書類を１つ用意する</p>
                 </div>
 
-                <img src="/public/ra_age_verification_image.png" alt="" />
+                <img src="ra_age_verification_image.png" alt="" />
 
                 <Link to="/ageVerification/other">
                     <p className="text-sm text-end text-purple-400 pt-2 pr-2">その他の書類 ▶</p>
