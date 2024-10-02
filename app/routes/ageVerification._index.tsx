@@ -1,8 +1,9 @@
 import { Link } from "@remix-run/react"
+import PushButton from "./components/pushButton"
 
 export default function ageVerification() {
     return (
-        <div className="max-w-md mx-auto bg-black text-white">
+        <div className="max-w-md mx-auto bg-black text-white mb-20">
 
             <header className="text-center py-3 sticky top-0 bg-neutral-950">
                 <div className="flex">
@@ -20,7 +21,7 @@ export default function ageVerification() {
                     <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 whitespace-nowrap">①年齢確認書類を１つ用意する</p>
                 </div>
 
-                <img src="ra_age_verification_image.png" alt="" />
+                <img src="/public/ra_age_verification_image.png" alt="" />
 
                 <Link to="/ageVerification/other">
                     <p className="text-sm text-end text-purple-400 pt-2 pr-2">その他の書類 ▶</p>
@@ -66,6 +67,8 @@ export default function ageVerification() {
                 </button>
             </div>
 
+
+            <PushButton />
         </div>
     )
 }
