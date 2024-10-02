@@ -1,14 +1,14 @@
 export default function pointBoard() {
     return (
-        <div className="max-w-md mx-auto bg-black text-white mb-20">
+        <div className="max-w-md mx-auto bg-black text-white">
 
             <header className="text-center py-6 sticky">
                 <p className="font-bold">ポイント表</p>
             </header>
 
-            <div className="mt-10 bg-neutral-900">
+            <div className="mt-10 bg-gray-950">
 
-                <div className="border-t border-b border-gray-300 border-opacity-20 py-5">
+                <div className="border-t border-b border-gray-600 border-opacity-20 py-5">
                     <div className="flex justify-between mx-4">
                         <p>メッセージ送信</p>
                         <p>60pt</p>
@@ -58,6 +58,7 @@ export default function pointBoard() {
                 </div>
 
             </div>
+
         </div >
     )
 }
