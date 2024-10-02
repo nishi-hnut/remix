@@ -23,6 +23,7 @@ export default function Index() {
           <div className="flex items-center">
             <img className="w-5 h-5 object-cover" src="p.png" alt="" />
             <p className="text-white font-bold ml-1">310 +</p>
+            <Link to="/pointBoard">ssssssssssssssss</Link>
           </div>
 
           <img className="w-4 h-4 object-cover" src="time.png" alt="" />
