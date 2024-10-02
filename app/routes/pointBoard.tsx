@@ -6,7 +6,7 @@ export default function pointBoard() {
                 <p className="font-bold">ポイント表</p>
             </header>
 
-            <div className="mt-10 bg-gray-950">
+            <div className="mt-10 bg-neutral-900">
 
                 <div className="border-t border-b border-gray-600 border-opacity-20 py-5">
                     <div className="flex justify-between mx-4">
