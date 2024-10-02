@@ -3,7 +3,7 @@ import PushButton from "./components/pushButton"
 
 export default function ageVerification() {
     return (
-        <div className="max-w-md mx-auto bg-black text-white mb-20">
+        <div className="max-w-md mx-auto bg-black text-white mb-60">
 
             <header className="text-center py-3 sticky top-0 bg-neutral-950">
                 <div className="flex">
@@ -66,7 +66,6 @@ export default function ageVerification() {
                     <p className="">証明書を撮影する</p>
                 </button>
             </div>
-
 
             <PushButton />
         </div>
