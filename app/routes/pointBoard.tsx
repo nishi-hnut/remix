@@ -3,7 +3,10 @@ export default function pointBoard() {
         <div className="max-w-md mx-auto bg-black text-white">
 
             <header className="text-center py-6 sticky">
-                <p className="font-bold">ポイント表</p>
+                <div className="flex">
+                    <p className="pl-4"><span className="font-bold">＜</span>戻る</p>
+                    <p className="absolute left-1/2 -translate-x-1/2 font-bold">ポイント表</p>
+                </div>
             </header>
 
             <div className="mt-10 bg-neutral-950">
