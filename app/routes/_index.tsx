@@ -183,7 +183,7 @@ export default function Index() {
         <div className="bg-purple-500 flex items-center py-2 px-1 w-20 rounded-full my-3">
           <p className="text-white text-xs flex-1 font-bold">通話待機する</p>
         </div>
-        <Link to="/page">Aboutページへ</Link>
+        <Link to="/page">画面遷移させる</Link>
       </div>
     </div>
   );
