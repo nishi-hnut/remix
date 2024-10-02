@@ -9,6 +9,7 @@ body {
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
   }
+  background-color: black;
   color: #ffffff;
   font-family: -apple-system, 'BlinkMacSystemFont',  Sans-Serif;
 }
