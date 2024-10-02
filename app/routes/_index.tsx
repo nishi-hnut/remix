@@ -31,7 +31,7 @@ export default function Index() {
 
       <main className="max-w-md mx-auto">
         <div className="flex justify-between mt-4">
-          <p className="text-white text-xs font-bold">いますぐ通話可能なお相手</p>
+          <p className="text-white text-xs font-bold">いますぐ通話可能なお相手 画面遷移前の画面</p>
           <button onClick={handleClick}>
             <p className="text-purple-400 text-xs font-bold">更新する</p>
           </button>

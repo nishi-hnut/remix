@@ -18,7 +18,7 @@ export default function Pagess() {
 
             <main className="max-w-md mx-auto">
                 <div className="flex justify-between mt-4">
-                    <p className="text-white text-xs font-bold">いますぐ通話可能なお相手</p>
+                    <p className="text-white text-xs font-bold">いますぐ通話可能なお相手  画面遷移した画面</p>
                 </div>
 
                 <div className="mt-1 flex">
