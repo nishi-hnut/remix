@@ -1,6 +1,6 @@
 export default function pointBoard() {
     return (
-        <div className="max-w-md mx-auto bg-black text-white mb-24">
+        <div className="max-w-md mx-auto bg-black text-white">
 
             <header className="text-center py-6 sticky">
                 <p className="font-bold">ポイント表</p>
