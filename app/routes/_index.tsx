@@ -24,6 +24,7 @@ export default function Index() {
             <img className="w-5 h-5 object-cover" src="p.png" alt="" />
             <p className="text-white font-bold ml-1">310 +</p>
             <Link to="/pointBoard">ssssssssssssssss</Link>
+            <Link to="/ageVerification">年齢確認</Link>
           </div>
 
           <img className="w-4 h-4 object-cover" src="time.png" alt="" />
