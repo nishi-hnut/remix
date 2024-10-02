@@ -1,5 +1,5 @@
 import { Link } from "@remix-run/react"
-import PushButton from "./components/pushButton"
+import PushNotificationButton from "./components/PushNotificationButton"
 
 export default function ageVerification() {
     return (
@@ -67,7 +67,7 @@ export default function ageVerification() {
                 </button>
             </div>
 
-            <PushButton />
+            <PushNotificationButton />
         </div>
     )
 }

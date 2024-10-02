@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function PushButton() {
+export default function PushNotificationButton() {
 
     const [checked, setChecked] = useState(false);
 
