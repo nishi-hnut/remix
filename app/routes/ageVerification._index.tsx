@@ -1,8 +1,10 @@
+import { Link } from "@remix-run/react"
+
 export default function ageVerification() {
     return (
         <div className="max-w-md mx-auto bg-black text-white">
 
-            <header className="text-center py-6 sticky">
+            <header className="text-center py-3 sticky top-0 bg-neutral-950">
                 <div className="flex">
                     <p className="pl-4"><span className="font-bold">＜</span>戻る</p>
                     <p className="absolute left-1/2 -translate-x-1/2 font-bold">年齢確認</p>
@@ -14,15 +16,19 @@ export default function ageVerification() {
             </div>
 
             <div className="mt-10">
-                <div className="relative w-full h-14 bg-neutral-900">
+                <div className="relative w-full h-14 bg-neutral-950">
                     <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 whitespace-nowrap">①年齢確認書類を１つ用意する</p>
                 </div>
-                <img src="ra_age_verification_image.png" alt="" />
-                <p className="text-sm text-end text-purple-400 pt-2 pr-2">その他の書類 ▶</p>
+
+                <img src="/public/ra_age_verification_image.png" alt="" />
+
+                <Link to="/ageVerification/other">
+                    <p className="text-sm text-end text-purple-400 pt-2 pr-2">その他の書類 ▶</p>
+                </Link>
             </div>
 
             <div className="mt-10">
-                <div className="relative w-full h-14 bg-neutral-900">
+                <div className="relative w-full h-14 bg-neutral-950">
                     <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 whitespace-nowrap">②年齢確認書類を撮影する</p>
                 </div>
 
@@ -43,7 +49,7 @@ export default function ageVerification() {
             </div>
 
             <div className="mt-10">
-                <div className="relative w-full h-14 bg-neutral-900">
+                <div className="relative w-full h-14 bg-neutral-950">
                     <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 whitespace-nowrap">③送信して完了</p>
                 </div>
 
@@ -54,7 +60,7 @@ export default function ageVerification() {
                 </div>
             </div>
 
-            <div className="text-center my-10">
+            <div className="text-center mt-10">
                 <button className="py-2 px-16 rounded-md bg-purple-600">
                     <p className="">証明書を撮影する</p>
                 </button>
