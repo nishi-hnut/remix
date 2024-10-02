@@ -14,7 +14,7 @@ export default function ageVerification() {
             </div>
 
             <div className="mt-10">
-                <div className="relative w-full h-14 bg-neutral-950">
+                <div className="relative w-full h-14 bg-neutral-900">
                     <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 whitespace-nowrap">①年齢確認書類を１つ用意する</p>
                 </div>
                 <img src="ra_age_verification_image.png" alt="" />
@@ -22,7 +22,7 @@ export default function ageVerification() {
             </div>
 
             <div className="mt-10">
-                <div className="relative w-full h-14 bg-neutral-950">
+                <div className="relative w-full h-14 bg-neutral-900">
                     <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 whitespace-nowrap">②年齢確認書類を撮影する</p>
                 </div>
 
@@ -43,7 +43,7 @@ export default function ageVerification() {
             </div>
 
             <div className="mt-10">
-                <div className="relative w-full h-14 bg-neutral-950">
+                <div className="relative w-full h-14 bg-neutral-900">
                     <p className="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 whitespace-nowrap">③送信して完了</p>
                 </div>
 
@@ -54,7 +54,7 @@ export default function ageVerification() {
                 </div>
             </div>
 
-            <div className="text-center mt-10">
+            <div className="text-center my-10">
                 <button className="py-2 px-16 rounded-md bg-purple-600">
                     <p className="">証明書を撮影する</p>
                 </button>
