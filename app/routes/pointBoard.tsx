@@ -8,14 +8,14 @@ export default function pointBoard() {
 
             <div className="mt-10 bg-neutral-950">
 
-                <div className="border-t border-b border-gray-600 border-opacity-20 py-5">
+                <div className="border-b border-gray-600 border-opacity-20 py-5">
                     <div className="flex justify-between mx-4">
                         <p>メッセージ送信</p>
                         <p>60pt</p>
                     </div>
                 </div>
 
-                <div className="border-t border-b border-gray-300 border-opacity-20 py-5">
+                <div className="border-b border-gray-300 border-opacity-20 py-5">
                     <div className="flex justify-between mx-4">
                         <p>スタンプ送信</p>
                         <p>60pt</p>
@@ -29,28 +29,28 @@ export default function pointBoard() {
                     </div>
                 </div>
 
-                <div className="border-t border-b border-gray-300 border-opacity-20 py-5">
+                <div className="border-b border-gray-300 border-opacity-20 py-5">
                     <div className="flex justify-between mx-4">
                         <p>ボイス付きメッセージ(開封・送信)</p>
                         <p>60pt</p>
                     </div>
                 </div>
 
-                <div className="border-t border-b border-gray-300 border-opacity-20 py-5">
+                <div className="border-b border-gray-300 border-opacity-20 py-5">
                     <div className="flex justify-between mx-4">
                         <p>動画付きメッセージ(開封・送信)</p>
                         <p>160pt</p>
                     </div>
                 </div>
 
-                <div className="border-t border-b border-gray-300 border-opacity-20 py-5">
+                <div className="border-b border-gray-300 border-opacity-20 py-5">
                     <div className="flex justify-between mx-4">
                         <p>音声通話(1分)</p>
                         <p>160pt</p>
                     </div>
                 </div>
 
-                <div className="border-t border-b border-gray-300 border-opacity-20 py-5">
+                <div className="border-b border-gray-300 border-opacity-20 py-5">
                     <div className="flex justify-between mx-4">
                         <p>ビデオ通話(1分)</p>
                         <p>280pt</p>
