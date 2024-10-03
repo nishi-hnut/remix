@@ -15,7 +15,7 @@ export default function othner() {
     }
 
     return (
-        <div className="max-w-md mx-auto text-white">
+        <div className="max-w-md mx-auto text-white mb-20">
             <header className="text-center py-3 sticky top-0 bg-neutral-950">
                 <div className="flex">
                     <button onClick={goBack}>
@@ -40,16 +40,16 @@ export default function othner() {
                     </div>
 
                     <div className="flex mt-4">
-                        <div className="bg-gray-700 text-center w-1/2 rounded-xl mr-5 py-3 px-4">
+                        <div className="bg-neutral-900 text-center w-1/2 rounded-xl mr-5 px-4">
                             <p>ポイント追加</p>
                         </div>
 
-                        <div className="bg-gray-700 text-center w-1/2 rounded-xl ml-5 py-3 px-4">
+                        <div className="bg-neutral-900 text-center w-1/2 rounded-xl ml-5 py-3 px-4">
                             <p>プロフィール編集</p>
                         </div>
                     </div>
 
-                    <div className="bg-gray-700 text-center mt-4 rounded-lg h-10 py-2">
+                    <div className="bg-neutral-900 text-center mt-4 rounded-lg h-10 py-2">
                         <p>年齢確認</p>
                     </div>
                 </div>
@@ -82,7 +82,7 @@ export default function othner() {
                         </label>
                     </div>
 
-                    <div className="flex justify-between border-b border-gray-600 border-opacity-20 py-3">
+                    <div className="flex justify-between border-opacity-20 py-3">
                         <p className="text-base">通話履歴</p>
                         <p>＞</p>
                     </div>
@@ -150,7 +150,7 @@ export default function othner() {
                         <p>＞</p>
                     </div>
 
-                    <div className="flex justify-between border-b border-gray-600 border-opacity-20 py-3">
+                    <div className="flex justify-between py-3">
                         <p className="text-base">ブロックリスト</p>
                         <p>＞</p>
                     </div>
@@ -175,7 +175,7 @@ export default function othner() {
                         <p>＞</p>
                     </div>
 
-                    <div className="flex justify-between border-b border-gray-600 border-opacity-20 py-3">
+                    <div className="flex justify-between py-3">
                         <p className="text-base">お問い合わせ</p>
                         <p>＞</p>
                     </div>
@@ -200,7 +200,7 @@ export default function othner() {
                         <p>1.2</p>
                     </div>
 
-                    <div className="text-center border-b border-gray-600 border-opacity-20 py-3">
+                    <div className="text-center py-3">
                         <p className="text-base">退会する</p>
                     </div>
                 </div>
