@@ -82,7 +82,7 @@ export default function othner() {
                         </label>
                     </div>
 
-                    <div className="flex justify-between border-opacity-20 py-3">
+                    <div className="flex justify-between border-opacity-20 pt-3">
                         <p className="text-base">通話履歴</p>
                         <p>＞</p>
                     </div>
@@ -144,13 +144,13 @@ export default function othner() {
 
             <div className="mx-4 mt-5">
                 <p className="text-sm ml-4 text-gray-500">個人設定</p>
-                <div className="bg-neutral-950 rounded-xl py-3 px-5">
+                <div className="bg-neutral-950 rounded-xl pb-3 px-5">
                     <div className="flex justify-between border-b border-gray-600 border-opacity-20 py-3">
                         <p className="text-base">自分の投稿履歴</p>
                         <p>＞</p>
                     </div>
 
-                    <div className="flex justify-between py-3">
+                    <div className="flex justify-between pt-3">
                         <p className="text-base">ブロックリスト</p>
                         <p>＞</p>
                     </div>
@@ -159,7 +159,7 @@ export default function othner() {
 
             <div className="mx-4 mt-5">
                 <p className="text-sm ml-4 text-gray-500">サポート</p>
-                <div className="bg-neutral-950 rounded-xl py-3 px-5">
+                <div className="bg-neutral-950 rounded-xl pb-3 px-5">
                     <div className="flex justify-between border-b border-gray-600 border-opacity-20 py-3">
                         <p className="text-base">お知らせ</p>
                         <p>＞</p>
@@ -175,7 +175,7 @@ export default function othner() {
                         <p>＞</p>
                     </div>
 
-                    <div className="flex justify-between py-3">
+                    <div className="flex justify-between pt-3">
                         <p className="text-base">お問い合わせ</p>
                         <p>＞</p>
                     </div>
@@ -184,7 +184,7 @@ export default function othner() {
 
             <div className="mx-4 mt-5">
                 <p className="text-sm ml-4 text-gray-500">アプリ利用について</p>
-                <div className="bg-neutral-950 rounded-xl py-3 px-5">
+                <div className="bg-neutral-950 rounded-xl pb-3 px-5">
                     <div className="flex justify-between border-b border-gray-600 border-opacity-20 py-3">
                         <p className="text-base">利用規約</p>
                         <p>＞</p>
@@ -200,7 +200,7 @@ export default function othner() {
                         <p>1.2</p>
                     </div>
 
-                    <div className="text-center py-3">
+                    <div className="text-center pt-3">
                         <p className="text-base">退会する</p>
                     </div>
                 </div>
