@@ -12,7 +12,7 @@ export default function PushNotificationButton() {
         <div className="mx-4 mt-5">
             <p className="text-sm ml-4 text-gray-500">プッシュ通知(個別に設定可能)</p>
             <div className="bg-neutral-950 rounded-xl py-3 px-5">
-                <div className="flex justify-between border-b border-gray-600 border-opacity-20 py-2">
+                <div className="flex justify-between border-b border-gray-600 border-opacity-20 pb-2">
                     <p className="text-base">メール通知</p>
                     <label className="inline-flex items-center cursor-pointer">
                         <input
@@ -48,7 +48,7 @@ export default function PushNotificationButton() {
                     </label>
                 </div>
 
-                <div className="flex justify-between py-2">
+                <div className="flex justify-between pt-2">
                     <p className="text-base">その他の通知</p>
                     <label className="inline-flex items-center cursor-pointer">
                         <input
